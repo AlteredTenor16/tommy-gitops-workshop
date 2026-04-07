@@ -15,12 +15,6 @@
 # To see all supported options, check out:
 #   • https://fleetdm.com/docs/configuration/yaml-files
 #
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-labels:
-  - name: C-Suite-Mobile
-    description: Hosts belonging to the C-Suite
-    label_membership_type: manual
-    hosts:
 
 name: "📱🔐 Personal mobile devices"
 controls:
@@ -52,7 +46,7 @@ controls:
       # … e.g.
         - path: ../platforms/ios/configuration-profiles/passcode-settings.json
           labels_exclude_any:
-            - C-Suite-Mobile
+            - Engineering
       # - path: ../lib/ios/configuration-profiles/self-service.mobileconfig
   android_settings:
     configuration_profiles:
