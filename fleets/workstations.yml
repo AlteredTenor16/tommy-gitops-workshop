@@ -15,7 +15,7 @@
 #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 labels:
-  - name: C-Suite
+  - name: C-Suite-Workstations
     description: Hosts belonging to the C-Suite
     label_membership_type: manual
     hosts:
