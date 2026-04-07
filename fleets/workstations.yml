@@ -126,7 +126,7 @@ controls:
   # > using `paths` below.
   ###########################################################
   scripts:
-    - paths: ../platforms/macos/scripts/*.sh
+    # - paths: ../platforms/macos/scripts/*.sh
     - path: ../platforms/windows/scripts/set-wallpaper.ps1
     - paths: ../platforms/linux/scripts/*.sh
     - path: ../platforms/macos/scripts/set-dns-cloudflare.sh
