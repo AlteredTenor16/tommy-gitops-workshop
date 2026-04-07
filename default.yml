@@ -37,10 +37,14 @@ org_settings:
     # configurations.
     ###########################################################
     server_url: $FLEET_URL
+
   webhook_settings:
     activities_webhook:
       enable_activities_webhook: true
       destination_url: https://webhook.site/98726b5c-0efb-49e8-bfef-636bcf87b579
+
+  labels:
+    - path: ./labels/*.yml
   ###########################################################
   # Uncomment to use single sign-on (SSO) for admins accessing Fleet.
   #
