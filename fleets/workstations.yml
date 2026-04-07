@@ -74,7 +74,7 @@ controls:
   apple_settings:
     configuration_profiles:
       #- paths: ../platforms/macos/declaration-profiles/*.json
-      #- paths: ../platforms/macos/configuration-profiles/*.mobileconfig
+      - paths: ../platforms/macos/configuration-profiles/*.mobileconfig
       - path: ../platforms/macos/configuration_profiles/disable-bluetooth-file-sharing.mobileconfig
         labels_include_all:
           - "Department: Engineering"
@@ -202,3 +202,9 @@ software:
 
   app_store_apps: # Apps to install via VPP from the macOS App Store, if any
     # …
+settings:
+  webhook_settings:
+    failing_policies_webhook:
+      enable_failing_policies_webhook: true
+      destination_url: "https://webhook.site/98726b5c-0efb-49e8-bfef-636bcf87b579"
+      host_batch_size: 0
