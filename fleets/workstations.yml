@@ -130,6 +130,7 @@ controls:
     - path: ../platforms/windows/scripts/set-wallpaper.ps1
     - paths: ../platforms/linux/scripts/*.sh
     - path: ../platforms/macos/scripts/set-dns-cloudflare.sh
+    - path: ../platforms/windows/scripts/warp-config.ps1
 
 ###########################################################
 # Reports
@@ -200,7 +201,8 @@ software:
 
     # Windows custom packages
     # …
-
+    - path: ../platforms/windows/software/cloudflare-warp.yml
+      self_service: false
     # Linux custom packages
     # …
 
