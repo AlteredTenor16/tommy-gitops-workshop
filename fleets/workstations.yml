@@ -14,11 +14,11 @@
 #   • https://fleetdm.com/docs/configuration/yaml-files
 #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-labels:
-  - name: C-Suite-Workstations
-    description: Hosts belonging to the C-Suite
-    label_membership_type: manual
-    hosts:
+# labels:
+#   - name: C-Suite-Workstations
+#     description: Hosts belonging to the C-Suite
+#     label_membership_type: manual
+#     hosts:
 
 name: "💻 Workstations"
 controls:
